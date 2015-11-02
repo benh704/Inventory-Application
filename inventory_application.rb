@@ -3,27 +3,12 @@ Inventory_item = {
      "Carrots" => 2.99,
      "Squash" => 2.59
    }
-#
-# class Inventory_item
-# attr_accessor :name
-# attr_accessor :price
-# attr_accessor :quantity
-
-
-
-# -  attr_accessor :name        +          "Asparagus" => 3.29,
-# -  attr_accessor :price        +           "Carrots" => 2.99,
-# -  attr_accessor :quantity        +           "Squash" => 2.59
-# +          }
 
 Inventory_item.each do |name, price|
 puts "#{name}: $#{price}"
 end
 
 
-# + Inventory_item.each do |name, price|
-# +   puts "#{name}: $#{price}"
-# + end
 
 keylist = []
 price_hash = { }
